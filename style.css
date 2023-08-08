@@ -1,0 +1,243 @@
+.AA{
+    display: flex;
+    /* background-color: brown; */
+    justify-content: space-between;
+    /* padding: 30px; */
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    /* padding: 100px; */
+    /* margin: 10px; */
+}
+.AA .img{
+    height: 70%;
+    width: 100%;
+}
+.BB{
+    margin-left: 50px;
+     width: 100% ;
+     height: 100%;
+}
+.RR{
+    display: flex;
+    /* background-color: brown; */
+    justify-content: space-between;
+    /* padding: 30px; */
+    height: 100%;
+    width: 100%;
+    margin-top: 5%; 
+    display: none;
+}
+.SS{
+    margin-left: 50px;
+     width: 100% ;
+     height: 100%;
+}
+.TT{
+    display: flex;
+    /* background-color: brown; */
+    justify-content: space-between;
+    /* padding: 30px; */
+    height: 100%;
+    width: 100%;
+    margin-top: 5%;
+    display: none;  
+}
+.UU{
+    margin-left: 50px;
+    width: 100% ;
+    height: 100%; 
+}
+.name{
+    display: flex;
+    /* margin-left: 100px; */
+    /* background-color: aqua; */
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 60%;
+}
+.name button{
+    height: 40px;
+}
+.resistration{
+    height: 441px;
+    width: 100%; 
+    /* background-color: blue; */
+    padding: 10px;
+    margin-right: 50px; 
+}
+.name{
+    /* height: 400px; */
+    /* width: 100%; */
+    
+}
+.CC{
+    border:none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-bottom: 2px solid black;
+}
+.DD{
+    /* margin-left: 100px; */
+    text-align: center;
+}
+.touche{
+   /* margin-bottom: 0px; */
+   /* background-color: black;  */
+   width: 100%;
+   
+}
+.FFF{
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-bottom: 2px solid black;
+    width: 85%;
+}
+.too{
+    /* margin-bottom: 25px; */
+    /* background-color: brown; */
+    /* margin-top: 150px; */
+    margin-left: 30px;
+    height: 50px;
+    color: yellowgreen;
+    /* float: left; */
+    /* display: none; */
+}
+.thre{
+    /* margin-top: 150px; */
+    height: 50px;
+    color:red;
+    float: right;
+    margin-right: 30px;
+    /* display: none;   */
+}
+.quatre{
+    margin-top: 50px;
+    height: 50px;
+    color: green; 
+    /* display: none;   */
+}
+.five{
+    margin-top: 50px;
+    height: 50px;
+    color: rgb(59, 49, 49);
+    /* display: none;       */
+}
+.HH{
+    display: flex;
+    /* margin-left: 100px; */
+    /* background-color: aqua; */
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+    height: 40%;
+}
+.II{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+    /* background-color: brown; */
+    /* padding: 5px; */
+    /* margin-top: 0px; */
+}
+ .second{
+    height: 415px;
+    width: 100%; 
+    /* background-color: blue; */
+    padding: 10px;
+    margin-right: 50px;
+    /* background-color: brown;  */
+  }
+  .JJ{
+    height: 60%;
+    width: 100%;
+    /* background-color:black; */
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .tof{
+    height: 400px;
+    width: 550px;
+  }
+  .foto{
+    height: 400px;
+    width: 500px;
+  }
+  
+  @media screen and (max-width: 300px){
+    .AA{
+        flex-direction: column;
+        width: 100%;
+        /* background-color: blue; */
+    }
+    .BB{
+        width: 100%;
+        margin-left: 0;
+    }
+    .name{
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .img{
+        width: 100%;
+        margin-left: 1px;
+    }
+    .RR{
+        flex-direction: column;
+        /* background-color: red; */
+        width: 100%;
+    }
+    .SS{
+        width: 100%;
+        margin-left: 0;
+    }
+    .foto{
+        width: 100%;
+        height: 100%;
+        margin-left: 0;
+    }
+    .DD{
+        margin-left: 0;
+        width: 100%;
+    }
+    .FFF{
+       margin-left: 0; 
+    }
+    .HH{
+        flex-direction: column;
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    .FFF{
+        width: 60%;
+        margin-left: 0;
+    }
+    .TT{
+        flex-direction: column;
+        width: 100%;
+    }
+    .tof{
+        width: 100%;
+        height: 100%;
+    }
+    .JJ{
+        width: 100%;
+    }
+    .UU{
+        /* background-color: blue; */
+        width: 100%;
+        margin-left: 0;
+    }
+    .second{
+        width: 100%;
+    }
+    .thre{
+        /* margin-top: 0; */
+        /* height: 0; */
+    }
+  }
